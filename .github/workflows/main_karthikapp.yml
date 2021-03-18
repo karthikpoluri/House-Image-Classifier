@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: 'karthikapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5fdbbe8b8284b068590d0b9b5d83149 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a921bbdd1b8044559175066e8a524a52 }}
         package: '.\myapp.zip'
